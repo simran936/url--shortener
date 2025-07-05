@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // Constants
-const PORT = 5000;
+const PORT = 5001;
 const LOCALHOST_IP = "127.0.0.1";
 const MONGO_URI = `mongodb://${LOCALHOST_IP}:27017/Url_Shortner`;
 const LOCAL_URL = `http://localhost:${PORT}`;

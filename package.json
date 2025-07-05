@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Advanced URL shortening service with analytics and user management",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
@@ -20,7 +21,8 @@
     "morgan": "^1.10.0",
     "qr-image": "^3.2.0",
     "rate-limiter-flexible": "^2.4.1",
-    "short-unique-id": "^5.0.0"
+    "short-unique-id": "^5.0.0",
+    "shortid": "^2.2.17"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
